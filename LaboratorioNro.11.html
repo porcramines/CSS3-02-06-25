@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style type="text/css">
+	.encabezado{
+		width: 90%;
+		height: 50px;
+		border: 1px solid green;
+		background-color: purple;
+		color: white;
+		padding-top: 20px;
+	}
+	.cuerpo{
+		height: 400px;
+		border: 1px solid green;
+	}
+	.izquierdo{
+		border: 1px solid green;
+		width: 30%;
+		float: left;
+	}
+	.centro{
+		border: 1px solid green;
+		width: 40%;
+		float: left;
+	}
+	.derecho{
+		border: 1px solid red;
+		width: 20%;
+		float: left;
+	}
+	.pie{
+		border: 1px solid red;
+		display: block;
+	}
+	@media (max-width: 800px){
+		.izquierdo,.centro,.derecho{
+			float: none;
+		}
+		.cuerpo{
+			height: 800px;
+		}
+	}
+</style>
+</head>
+<body>
+
+<div>
+<h1 class="encabezado">Chania</h1>
+</div>
+
+<div>
+<div class="cuerpo">
+	<div class="izquierdo">
+		<ul>
+			<li>El Vuelo</li>
+			<li>La Ciudad</li>
+			<li>La Isla</li>
+			<li>La Comida</li>
+		</ul>
+	</div>
+
+	<div class="centro">
+		<h1>La Ciudad</h1>
+		<p>Chania es la capital de Chania región de la isla  de Creta. La ciudad esta dividida en dos partes, el viejo pueblo y la ciudad moderna.</p>
+	</div>
+	<div>
+
+	<div class="derecho">
+		<h2>¿Qué?</h2>
+		<p>Chania es una ciudad en la isla de Creta.</p>
+		<h2>¿Dónde?</h2>
+		<p>Creta es una isla griega en el mar mediterraneo.</p>
+		<h2>¿Cómo llego?</h2>
+		<p>Puedes viajar desde cualquier puerto de Europa.</p>
+	</div>
+
+	</div>
+
+</div>
+
+	<div class="pie">
+		<p>Modifica el tamaño de la ventana del navegador para ver como se modifica el contenido también.</p>
+	</div>
+</div>
+</body>
+</html>
